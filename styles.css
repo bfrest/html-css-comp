@@ -1,0 +1,103 @@
+:root {
+  /* 31C */
+  --black: #0c0606;
+}
+
+body {
+  /* 23E && 30D*/
+  background: linear-gradient(#44bd32, #0097e6);
+  height: 100vh;
+
+  /* 23D-2 */
+  color: whitesmoke;
+
+  /* 24F */
+  box-sizing: border-box;
+
+  /* 23D-1 */
+  font-weight: 600;
+}
+
+nav {
+  /* 25C-2 */
+  position: absolute;
+
+  /* 23F */
+  background-image: url("https://res.cloudinary.com/bfrest/image/upload/v1519393634/noTrack.jpg");
+  height: 300px;
+  width: 450px;
+  background-size: cover;
+  margin: 500px 150px 0px 750px;
+
+  /* 30C */
+  box-shadow: 8px 8px black;
+}
+
+/* 22C-1 */
+#mainHead {
+  /* 24C */
+  margin: 10px 150px 10px 0;
+
+  /* 24D */
+  border: 2px double orangered;
+
+  /* 24E */
+  padding: 5px 5px 5px 5px;
+
+  /* 25C-1 */
+  position: relative;
+
+  /* 30E */
+  text-shadow: 7px 7px purple;
+}
+
+.floated {
+  /* 2D */
+  float: right;
+}
+
+.display {
+  /* 25F && 27G */
+  display: flex;
+
+  /* 27C */
+  justify-content: flex-end;
+
+  /* 27D */
+  align-items: center;
+
+  /* 27E */
+  flex-wrap: wrap;
+
+  /* 27F */
+  flex-direction: row;
+
+  /* 23D-3 */
+  font-size: 2em;
+}
+
+/* 22C-3 */
+.display p {
+  color: orange;
+}
+
+.blogPost {
+  /* 25C-3 */
+  position: fixed;
+  margin: 100px 100px 100px 290px;
+}
+
+/* 22C-4 */
+.blogPost > p {
+  font-family: cursive;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  /* 31D */
+  display: grid;
+}
